@@ -1,0 +1,181 @@
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Classes */
+.clear {
+	clear: both;
+}
+
+.img-circular{
+	
+ width: 150px; 
+ border-radius: 200px;
+   
+ /*
+ height: 100px;
+ background-size: cover;
+ display: block;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ */
+ 
+}
+
+.main-font{
+	font-size: 15px;
+}
+
+.main-font1{
+	font-size: 15px;
+	display: inline-block;
+	width: 280px;
+}
+
+.main-footer{
+	font-size: 15px;
+	border-top:2px solid #CCC;
+	padding-top: 10px;
+	color: rgb(116, 116, 110);
+	/*font-style: italic;*/
+}
+
+.header-h{
+	font-size: 15px;
+	margin-top: -30px; 
+	margin-bottom: 30px;
+}
+
+
+
+
+.para{
+	display: inline;
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+ width: 100%;
+}  
+
+h3{
+   font-size: 20px;
+   display: inline;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+.container{
+     margin: 0 auto 0 auto; 
+	 width: 1050px;
+	 /*background: red; */
+     /*padding: 1000 px; */ 
+}
+
+/*----------------------------------------------------------------------------- 
+03=NAV 
+-----------------------------------------------------------------------------*/
+
+.container-nav{
+ /* background: #ff3300; */
+	background: #007D64;
+}
+
+
+nav ul li {
+  float: left;
+  list-style: none;
+ }
+nav ul{
+	padding-left: 0px;
+}
+
+nav ul li a{
+  padding: 20px;
+ /* background: white; */
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+nav ul li a:hover{
+	color:#000;
+	transition: color 0.3s ease-in; 
+}
+
+/*----------------------------------------------------------------------------- 
+04=MAIN  
+-----------------------------------------------------------------------------*/
+#main{
+	background:White;
+	padding: 5px 50px; 
+    width: 700px;
+    float: left;
+	/*margin: 500 500 500 500; */
+	/*margin-left: 1px;*/  
+	
+
+}
+
+
+/*----------------------------------------------------------------------------- 
+05=SIDEBAR
+-----------------------------------------------------------------------------*/
+#sidebar{
+	background:White;
+	width: 340px;
+    float: left;
+    padding:30px 30px 30px 20px;
+    margin-left: 10px;
+    border-left: 3px solid #BBB;
+	border-bottom: 3px solid #BBB;
+
+}
+
+blockquote{
+	/*display: inline-block; */ 
+	font-size: 15px;
+	font-style: italic;
+	border-left: 5px solid #ccc;
+	margin-left: 0px;
+	width: 250px;
+
+	padding-left: 20px; 
+	/*background-color:red; */
+}
+
+blockquote p {
+	   display: inline-block;
+   }
+
+
+ul{
+	font-size: 15px;
+    
+}
+
+a{
+    color: #ff3300; 
+	font-size: bold;
+	text-decoration: none;
+}
+
+   
+/*----------------------------------------------------------------------------- 
+06=FOOTER 
+-----------------------------------------------------------------------------*/
+
